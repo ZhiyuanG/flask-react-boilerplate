@@ -1,0 +1,21 @@
+{
+  "name": "assets",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "zhiyuan",
+  "license": "MIT",
+  "scripts": {
+    "build": "webpack"
+  },
+  "dependencies": {
+    "babel-cli": "6.24.1",
+    "babel-core": "6.25.0",
+    "babel-loader": "7.1.1",
+    "babel-plugin-transform-class-properties": "6.24.1",
+    "babel-preset-env": "1.5.2",
+    "babel-preset-react": "6.24.1",
+    "react": "16.0.0",
+    "react-dom": "16.0.0",
+    "webpack": "^3.10.0"
+  }
+}

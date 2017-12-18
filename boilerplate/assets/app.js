@@ -1,7 +1,8 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import { SQLEditor } from './components/sqleditor';
 
 ReactDOM.render(
-    <p>Hello World@</p>,
+    <SQLEditor/>,
     document.getElementById('app')
 );

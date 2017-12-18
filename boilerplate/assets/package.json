@@ -5,7 +5,8 @@
   "author": "zhiyuan",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "watch": "webpack --watch"
   },
   "dependencies": {
     "babel-cli": "6.24.1",

@@ -7,8 +7,3 @@ app = Flask(__name__, static_url_path='')
 def hello():
     """ function for route / """
     return render_template("hello.html")
-
-@app.route('/bundle.js')
-def send_bundle():
-    #return url_for('static', filename='bundle.js')
-    return app.send_static_file('bundle.js')

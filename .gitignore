@@ -6,3 +6,5 @@ node_modules
 bundle.js
 yarn.lock
 yarn-error.log
+env
+.vscode
